@@ -68,4 +68,4 @@ def mostra_punti_route():
     return render_template('punti.html', punti_utente=punti_utente)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5001)     
